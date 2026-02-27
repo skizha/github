@@ -7,7 +7,7 @@ A collection of reusable GitHub configurations, templates, and workflows.
 | File | Status | Notes |
 |------|--------|-------|
 | `main-branch-ruleset.json` | Done | Branch protection for `main` |
-| `dev-branch-ruleset.json` | Pending | Looser ruleset for `dev`/`develop` branch |
+| `dev-branch-ruleset.json` | Done | Looser ruleset for `dev` branch — direct pushes, no signatures or reviews |
 | `workflows/ci.yml` | Pending | Reusable CI template (lint, test, build) |
 | `workflows/pr-checks.yml` | Pending | Automated checks on pull requests |
 | `.github/PULL_REQUEST_TEMPLATE.md` | Pending | Standard PR description checklist |
